@@ -189,3 +189,42 @@
     margin-top: 0;
   }
   
+   /* Footer */
+   footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+    margin-right: -500px;
+  }
+  
+  footer ul {
+    font-size: 0px;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+  
+  footer ul li {
+    padding-left: 10px;
+    display: inline-block;
+  }
+  
+  footer ul li i {
+    width: 41px;
+    height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #0D0D0D;
+    font-size: 17px;
+    padding-top: 11px;
+  }
+ 
