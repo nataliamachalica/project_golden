@@ -43,7 +43,7 @@
     font-family: "Roboto Slab", serif;
     color: #777777;
   }
-  
+
 /* Header */
 .splash {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Background_Image.png");
@@ -118,5 +118,33 @@
     border-radius: 3px;
     text-decoration: none;
     padding: 20px 50px;
+  }
+  
+  /* Services */
+  .container {
+    text-align: center;
+  }
+  
+  .container .services-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  
+  .container .services-row .services-box {
+    margin: auto 22px;
+    max-width: 350px;
+  }
+  
+  .container .services-row .services-box i {
+    height: 67px;
+    width: 67px;
+    font-size: 35px;
+    color: #FED136;
+    border-radius: 50%;
+    border: 3px solid #FED136;
+    padding-top: 12px;
+    margin-bottom: 12px;
   }
   
