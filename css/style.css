@@ -227,4 +227,141 @@
     font-size: 17px;
     padding-top: 11px;
   }
- 
+   /* Media */
+   @media (max-width: 575px) {
+    section {
+      padding: 40px 0;
+    }
+    .section-title {
+      font-size: 30px;
+    }
+    .splash {
+      min-height: 500px;
+    }
+    .splash .navigation h5 {
+      padding-left: 30px;
+    }
+    .splash .navigation ul {
+      padding-right: 0px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-right: 20px;
+      padding-top: 15px;
+    }
+    .splash .splash-inner {
+      top: 65%;
+    }
+    .splash .splash-inner h3 {
+      font-size: 25px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 35px;
+      margin-bottom: 60px;
+    }
+    .splash .splash-inner .btn {
+      font-size: 13px;
+      padding: 15px 30px;
+    }
+    .container .services-row {
+      -ms-flex-direction: column;
+          flex-direction: column;
+    }
+    .container .services-row .services-box {
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    footer {
+      padding-top: 30px;
+    }
+    footer p {
+      margin-right: 0;
+      float: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    section {
+      padding: 50px 0;
+    }
+    .splash {
+      min-height: 500px;
+    }
+    .splash .navigation h5 {
+      padding-left: 20px;
+    }
+    .splash .navigation ul {
+      padding-right: 10px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-top: 25px;
+      padding-right: 10px;
+    }
+    .splash .splash-inner h3 {
+      font-size: 25px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 40px;
+      margin-bottom: 60px;
+    }
+    .splash .splash-inner .btn {
+      font-size: 15px;
+      padding: 15px 40px;
+    }
+    .container .services-row {
+      -ms-flex-direction: column;
+          flex-direction: column;
+    }
+    .container .services-row .services-box {
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    footer p {
+      margin-right: 0px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    section {
+      padding: 80px 0;
+    }
+    .splash .navigation h5 {
+      padding-left: 30px;
+    }
+    .splash .navigation ul {
+      padding-right: 10px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-top: 25px;
+      padding-right: 10px;
+    }
+    .splash .splash-inner {
+      top: 50%;
+    }
+    .splash .splash-inner h3 {
+      font-size: 35px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 55px;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    .container .portfolio-row .portfolio-box img {
+      margin-right: 20px;
+    }
+    footer p {
+      margin-right: 0px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
