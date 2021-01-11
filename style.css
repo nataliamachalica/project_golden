@@ -1,0 +1,367 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 120px 0;
+  }
+  
+  .section-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 auto;
+  }
+  
+  .section-subtitle {
+    font-family: "Noto Serif", serif;
+    color: #777777;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 14px;
+    font-family: "Roboto Slab", serif;
+    color: #777777;
+  }
+
+/* Header */
+.splash {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Background_Image.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 700px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .splash .navigation h5 {
+    font-family: "Allura", cursive;
+    font-size: 26px;
+    color: #FED136;
+    margin: 0;
+    padding-left: 230px;
+    padding-top: 44px;
+    display: inline-block;
+  }
+  
+  .splash .navigation ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding-top: 55px;
+    padding-right: 180px;
+  }
+  
+  .splash .navigation ul li {
+    display: inline-block;
+    padding-right: 40px;
+  }
+  
+  .splash .navigation ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .splash .splash-inner {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+  }
+  
+  .splash .splash-inner h3 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Noto Serif", serif;
+    margin: 0 auto;
+  }
+  
+  .splash .splash-inner h1 {
+    font-size: 75px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 65px;
+  }
+  
+  .splash .splash-inner .btn {
+    background: #FED136;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 20px 50px;
+  }
+
+  /* Services */
+  .container {
+    text-align: center;
+  }
+  
+  .container .services-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  
+  .container .services-row .services-box {
+    margin: auto 22px;
+    max-width: 350px;
+  }
+  
+  .container .services-row .services-box i {
+    height: 67px;
+    width: 67px;
+    font-size: 35px;
+    color: #FED136;
+    border-radius: 50%;
+    border: 3px solid #FED136;
+    padding-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+/* Portfolio */
+  .portfolio {
+    background-color: #F7F7F7;
+  }
+  
+  .portfolio .portfolio-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0 75px;
+  }
+  
+  .portfolio .portfolio-row .portfolio-box {
+    background-color: #FFFFFF;
+    padding-bottom: 25px;
+    margin-top: 50px;
+  }
+  
+  .portfolio .portfolio-row .portfolio-box img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .portfolio .portfolio-row .portfolio-box h2 {
+    color: #333333;
+    padding-top: 10px;
+    margin-bottom: 2px;
+  }
+  
+  .portfolio .portfolio-row .portfolio-box p {
+    color: #737373;
+    font-family: "Noto Serif", serif;
+    margin-top: 0;
+  }
+  
+   /* Footer */
+   footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+    margin-right: -500px;
+  }
+  
+  footer ul {
+    font-size: 0px;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+  
+  footer ul li {
+    padding-left: 10px;
+    display: inline-block;
+  }
+  
+  footer ul li i {
+    width: 41px;
+    height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #0D0D0D;
+    font-size: 17px;
+    padding-top: 11px;
+  }
+   /* Media */
+   @media (max-width: 575px) {
+    section {
+      padding: 40px 0;
+    }
+    .section-title {
+      font-size: 30px;
+    }
+    .splash {
+      min-height: 500px;
+    }
+    .splash .navigation h5 {
+      padding-left: 30px;
+    }
+    .splash .navigation ul {
+      padding-right: 0px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-right: 20px;
+      padding-top: 15px;
+    }
+    .splash .splash-inner {
+      top: 65%;
+    }
+    .splash .splash-inner h3 {
+      font-size: 25px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 35px;
+      margin-bottom: 60px;
+    }
+    .splash .splash-inner .btn {
+      font-size: 13px;
+      padding: 15px 30px;
+    }
+    .container .services-row {
+      -ms-flex-direction: column;
+          flex-direction: column;
+    }
+    .container .services-row .services-box {
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    footer {
+      padding-top: 30px;
+    }
+    footer p {
+      margin-right: 0;
+      float: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    section {
+      padding: 50px 0;
+    }
+    .splash {
+      min-height: 500px;
+    }
+    .splash .navigation h5 {
+      padding-left: 20px;
+    }
+    .splash .navigation ul {
+      padding-right: 10px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-top: 25px;
+      padding-right: 10px;
+    }
+    .splash .splash-inner h3 {
+      font-size: 25px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 40px;
+      margin-bottom: 60px;
+    }
+    .splash .splash-inner .btn {
+      font-size: 15px;
+      padding: 15px 40px;
+    }
+    .container .services-row {
+      -ms-flex-direction: column;
+          flex-direction: column;
+    }
+    .container .services-row .services-box {
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    footer p {
+      margin-right: 0px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    section {
+      padding: 80px 0;
+    }
+    .splash .navigation h5 {
+      padding-left: 30px;
+    }
+    .splash .navigation ul {
+      padding-right: 10px;
+      padding-top: 25px;
+    }
+    .splash .navigation ul li {
+      padding-top: 25px;
+      padding-right: 10px;
+    }
+    .splash .splash-inner {
+      top: 50%;
+    }
+    .splash .splash-inner h3 {
+      font-size: 35px;
+    }
+    .splash .splash-inner h1 {
+      font-size: 55px;
+    }
+    .container .portfolio-row .portfolio-box {
+      margin: 20px auto;
+    }
+    .container .portfolio-row .portfolio-box img {
+      margin-right: 20px;
+    }
+    footer p {
+      margin-right: 0px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
